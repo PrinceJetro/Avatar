@@ -1,0 +1,65 @@
+.fact_items{
+    color: #fff;
+    padding: 30px
+}
+
+@media screen and (min-width: 480px){
+    .fact_items div{
+        height: 120px;
+    }
+}
+.fact_items .number{
+    display: inline-flex;
+    align-self: stretch;
+    justify-content: center;
+    padding: 0.25rem;
+    flex-basis: fit-content;
+    flex-shrink: 0;
+    min-width: 2.5rem;
+    font-size: 1em;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2em;
+    background: #d7282f;
+    box-sizing: border-box;
+    height: 50px;
+    margin-right: 20px;
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.fact_items .title{
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;  
+    font-size: 30px;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .fact_items img{
+        margin-bottom: 25px;
+        width: 100%;
+        height: 200px;
+    }   
+}
+
+/* pc */
+@media screen and (min-width: 480px) {
+    .fact_items img{
+        margin-bottom: 25px;
+        width: 100%;
+        height: 400px;
+    }   
+}
+.fact_items .fact{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    color: rgb(211, 211, 211);
+    line-height: 30.4px;
+    margin-block-end: 32px;
+}

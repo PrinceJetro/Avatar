@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+/* PC */
+@media screen and (min-width: 480px){
+    .quiz-body {
+        font-family: 'Anek Malayalam', sans-serif;
+        background: linear-gradient(90.04deg, #800080 0.03%, #ffc0cb 99.96%);
+        background-image: url("../images/anime-avatar-the-last-airbender-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        color: #11052c;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0 30px;
+        height: 100vh;
+      }
+      
+    .quiz-container {
+        max-width: 95%;
+        background: #ffffff;
+        border-radius: 4px;
+        margin-top: 100px;
+        padding: 30px 60px;
+        height: 75%;
+
+    }
+}
+    
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .quiz-body {
+        font-family: 'Anek Malayalam', sans-serif;
+        background: linear-gradient(90.04deg, #800080 0.03%, #ffc0cb 99.96%);
+        background-image: url("../images/anime-avatar-the-last-airbender-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 70% 50%;
+        color: #11052c;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        height: 100vh;
+      }
+      
+    .quiz-container {
+        background: #ffffff;
+        width: 95%;
+        margin-top: 100px;
+        height: 70%;
+        padding: 30px 30px;
+      }
+
+        /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 100%;
+    background-image: url("https://i.pinimg.com/originals/2a/8c/d3/2a8cd3e564e836cf5c9f163b69a9b2ec.jpg");
+    background-size: cover;
+    background-position: 50%;
+    color: #fff;
+  }
+
+      
+  }
+  
+
+.quiz-container .active-question-no {
+  font-size: 32px;
+  font-weight: 500;
+  color: #800080;
+}
+
+.quiz-container .total-question {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e0dee3;
+}
+
+.quiz-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.quiz-container ul {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+.quiz-container ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #2d264b;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.quiz-container ul .selected-answer {
+  background: #ffd6ff;
+  border: 1px solid #800080;
+}
+
+.quiz-container button {
+  background: linear-gradient(90.04deg, #800080 0.03%, #ffc0cb 99.96%);
+  border-radius: 9px;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 42px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.quiz-container button:disabled {
+  background: #e7e8e9;
+  color: #9fa3a9;
+  cursor: not-allowed;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result h3 {
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.result p span {
+  color: #800080;
+  font-size: 22px;
+}
+
+.modal {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 100%;
+    background-image: url("../images/avatar-avatar-the-last-airbender-elements-wallpaper-preview.jpg");
+    background-size: cover;
+    color: #fff;
+  }
+  
+  /* The Close Button */
+  .close {
+    float: right;
+    font-size: 48px;
+    font-weight: bold;
+    color: red;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

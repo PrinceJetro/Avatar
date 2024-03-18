@@ -1,0 +1,20 @@
+.character_items{
+    height:300px;
+    width: 22%;
+    display: inline-block;
+    margin: 5px;
+}
+
+ /* Mobile */
+ @media screen and (max-width: 480px) {
+    .character_items{
+        height:350px;
+        width: 95%;
+    }
+
+}
+
+.character_items img{
+    width: 100%;
+    height: 100%;
+}

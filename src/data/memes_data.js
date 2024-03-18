@@ -1,0 +1,26 @@
+import m1 from "../images/memes/1708975656349.jpg"
+import m2 from "../images/memes/1709731763144.jpg"
+import m3 from "../images/memes/1710718826686.jpg"
+import m4 from "../images/memes/1710719679856.jpg"
+import m5 from "../images/memes/1710719790406.jpg"
+import m6 from "../images/memes/1710720097018.jpg"
+import m7 from "../images/memes/1710720273929.jpg"
+import m8 from "../images/memes/1710720356373.jpg"
+import m9 from "../images/memes/1710720426934.jpg"
+import m10 from "../images/memes/1710720575724.jpg"
+import m11 from "../images/memes/1710720608788.jpg"
+import m12 from "../images/memes/1710720621446.jpg"
+import m13 from "../images/memes/1710720636657.jpg"
+import m14 from "../images/memes/1710720649663.jpg"
+import m15 from "../images/memes/1710720661670.jpg"
+import m16 from "../images/memes/1710720687005.jpg"
+import m17 from "../images/memes/1710720704013.jpg"
+import m18 from "../images/memes/1710720750991.jpg"
+import m19 from "../images/memes/1710720760710.jpg"
+import m20 from "../images/memes/1710720789089.jpg"
+import m21 from "../images/memes/1710720878117.jpg"
+import m22 from "../images/memes/1710720915941.jpg"
+
+export  default[
+    m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15,m16,,m17,m18,m19,m20,m21,m22
+]

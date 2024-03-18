@@ -1,0 +1,126 @@
+body{
+  background-color: #0b3d3a;
+}
+
+
+.intro .aang{
+  width: 100%;
+  height: 100vh;
+}
+
+.left img{
+  width: 100%;
+}
+
+.left{
+  align-items: center;
+  color: aliceblue;
+  font-family: "Mogra", system-ui;
+  font-style: normal;
+}
+
+.media{
+  margin-top: 50px;
+}
+.media span{
+  margin-right: 15%;
+}
+.media .fa{
+  font-size: 48px;
+}
+.character_header{
+  font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 20px 5px;
+  text-align: center;
+}
+.character_div{
+  margin: 0px 75px 0px 75px;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .character_div{
+      margin: 0 10px;
+  }
+  .quiz_intro{
+    height: 800px;
+  }
+  .character_show img{
+    width: 100%;
+  }
+}
+
+.character_row{
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-bottom: 40px;
+}
+
+
+
+
+.character_show{
+  background-color: aliceblue;
+}
+.character_show h1{
+  font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 20px 5px;
+}
+
+.character_show .col-sm-6 img{
+  width: 100%;
+  height: 600px;
+}
+
+.quiz_intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../images/avatar-avatar-the-last-airbender-elements-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
+}
+
+.quiz_intro h1{
+  font-size: 64px;
+  color: aliceblue;
+}
+
+.quiz_intro p{
+  font-size: 32px;
+  color: rgb(183, 184, 185);
+}
+
+.quiz_intro .btn{
+  font-size: 48px;
+}
+.did_you_know_header, .interactive_map_header, .closing_section h2{
+  font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 50px 5px;
+  text-align: center;
+}
+
+.interactive_map_intro, .closing_section p{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: rgb(211, 211, 211);
+  line-height: 30.4px;
+  margin: 20px;
+  margin-block-end: 32px;
+}
