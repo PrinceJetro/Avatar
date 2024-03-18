@@ -1,6 +1,6 @@
 import React, { useEffect, useRef , useState} from 'react';
 import { ReactDOM } from "react";
-import intro_img from "../images/aang.png"
+import intro_img from "../images/aang7.webp"
 import logo from "../images/logo.png"
 import Characters from './characters';
 import "../styles/home.css";
