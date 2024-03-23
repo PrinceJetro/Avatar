@@ -1,4 +1,4 @@
-  .header {
+.header {
     text-align: center;
     padding: 32px;
   }
@@ -20,7 +20,32 @@
   line-height: 30.4px;
   margin-block-end: 32px;
 }
-  
+ 
+.fanart_button_div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .fanart_container{
+    border: 0.5px solid grey;
+    border-radius: 20px;
+  }
+  #fanart_div{
+    display: none;
+  }  
+}
+/* pc */
+@media screen and (min-width: 480px) {
+  .fanart_button_div{
+    display: none
+  }
+  }
+
   .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -38,7 +63,7 @@
   }
   
   .column img {
-    margin-top: 8px;
+    margin-top: 20px;
     vertical-align: middle;
     width: 100%;
   }

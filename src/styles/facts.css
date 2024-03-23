@@ -16,17 +16,18 @@
     flex-basis: fit-content;
     flex-shrink: 0;
     min-width: 2.5rem;
-    font-size: 1em;
+    font-size: 24px;
     font-weight: 700;
     color: #fff;
     line-height: 1.2em;
     background: #d7282f;
     box-sizing: border-box;
-    height: 50px;
+    height: 75px;
     margin-right: 20px;
     font-family: "Angkor", serif;
     font-weight: 400;
     font-style: normal;
+    padding: 10px;
   
 }
 

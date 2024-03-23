@@ -33,7 +33,7 @@ function Footer() {
 
         <div>
           <i class="fa fa-envelope"></i>
-          <p><a target="_blank" href="mailto:adegbuyijephthah2gmail.com">support@company.com</a></p>
+          <p><a target="_blank" href="mailto:adegbuyijephthah2gmail.com">support@princejetro</a></p>
         </div>
 
       </div>

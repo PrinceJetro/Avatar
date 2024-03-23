@@ -36,7 +36,7 @@ export default function Video(){
 
     let myList;
     return(
-        <div>
+        <div id='video'>
                     <h1 className='video_header'>Avatar: The Last Airbender - Funny Moments</h1>
         <p className='video_intro'>Embark on a journey through the humorous side of the Avatar universe! Dive into these hilarious moments captured from the series, guaranteed to bring a smile to your face and laughter to your heart. Join us as we revisit some of the most memorable and comical scenes that make Avatar: The Last Airbender a timeless classic.</p>
         <div className='video_row' id="flavoursContainer" ref={flavoursContainerRef}>          

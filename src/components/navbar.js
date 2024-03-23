@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactDOM } from "react";
-import "../styles/navbar.css";
 import { Outlet, Link } from "react-router-dom";
+import "../styles/navbar.css"
 
 
 // <Link to={"/men"}></Link>
@@ -9,34 +9,39 @@ import { Outlet, Link } from "react-router-dom";
 
 export default function Navbar(){
     return(
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#"><h1>Logo</h1></a>
+      <nav class="navbar navbar-expand-lg navbar-dark  sticky-top">
+  <a class="navbar-brand" href="#"><h1>Avatar</h1></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-       <Link to={"/"}> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></Link>
+       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <Link to={"/shop all"}><a class="nav-link" href="#">Shop All</a></Link>
+        <a class="nav-link" href="#character_header">Characters</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Gender
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <Link to={"/men"}><a class="dropdown-item" href="#">Men</a></Link>
-        <Link to={"/women"}><a class="dropdown-item" href="#">Women</a></Link>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" href="#quiz_intro">Quiz</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#did_you_know">Facts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#video">Funny Moments</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#interactive_map_header">Interactive Map</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#meme_container">Memes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#fanart_container">Fan Arts</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
     )

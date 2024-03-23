@@ -13,6 +13,7 @@ import FanArt from './fanart';
 import Video from './video';
 import Memes from './memes';
 import Footer from './footer';
+import Navbar from './navbar';
 
 
 
@@ -59,6 +60,7 @@ export default function Home(){
 
     return(
         <div className="container-fluid p-0">
+          <Navbar/>
             <div className="row intro mb-4">
                 <div className="col-sm-6 left  p-5">
                     <img src={logo} className="mb-5"/>
@@ -79,7 +81,7 @@ export default function Home(){
                         </span>
 
                         <span>
-                        <a href='' target='_blank'  className='text-light'>
+                        <a href='#fanart_container'  className='text-light'>
                         <i className="fa fa-book"></i>
                         <p>Manga</p>
                         </a>
@@ -95,7 +97,7 @@ export default function Home(){
                 </div>
             </div>
 
-            <h1 className='character_header'>Characters</h1>
+            <h1 className='character_header' id='character_header'>Characters</h1>
             <div className='character_row' id="flavoursContainer" ref={flavoursContainerRef}>
             {
                 myList = characters_data.map(item => (
@@ -122,13 +124,13 @@ export default function Home(){
             </div>
 
            
-            <div className='quiz_intro  '>
+            <div className='quiz_intro' id='quiz_intro'>
               <h1>Game On!</h1>
               <p>Embark on a journey through the world of Avatar! Test your knowledge and discover the elements within you. Click to start the ultimate 15-question Avatar quiz adventure!</p>
               <Link to="/quiz"><button className='btn btn-dark'>Start Quiz</button></Link>
             </div>
 
-            <div className='did_you_know m-auto'>
+            <div className='did_you_know m-auto' id='did_you_know'>
               <h1 className='did_you_know_header'>Did You Know?</h1>
               <div className='row'>
               <Facts/>
@@ -139,7 +141,7 @@ export default function Home(){
             <Video/>
 
               <div>
-                <h1 className='interactive_map_header'>Interactive Map</h1>
+                <h1 className='interactive_map_header' id='interactive_map_header'>Interactive Map</h1>
                 <p className='interactive_map_intro'>Embark on an adventure through the Avatar World with our interactive map! Explore legendary locations such as Ba Sing Se, the Fire Nation, and more. Click on each destination to uncover fascinating facts and immerse yourself in the rich lore of the Avatar universe. Let the journey begin!</p>
               <Map/>
               </div>

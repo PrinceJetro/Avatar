@@ -1,0 +1,9 @@
+nav{
+    background-color: #0b6e68;
+}
+
+nav .navbar-brand{
+    font-family: "Mogra", system-ui;
+    font-style: normal;
+}
+
