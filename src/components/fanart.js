@@ -34,40 +34,40 @@ export default function FanArt() {
 
 <div class="column">
    {
-    fanartdata.slice(0, 3).map(item =>(
+    fanartdata.slice(0, 4).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
-            <h1 class="image-description"> Designed by <a href={item.link} target="_blank"> {item.name} </a> </h1>
+            <h1 class="image-description"> Credit  @<a href={item.link} target="_blank"> {item.name} </a> </h1>
         </div>
     ))
    }
 </div>
 <div class="column">
    {
-    fanartdata.slice(3, 6).map(item =>(
+    fanartdata.slice(4, 7).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
-            <h1 class="image-description"> Designed by <a href={item.link} target="_blank">{item.name}</a> </h1>
+            <h1 class="image-description"> Credit @<a href={item.link} target="_blank">{item.name}</a> </h1>
         </div>
     ))
    }
 </div>
 <div class="column">
    {
-    fanartdata.slice(6, 9).map(item =>(
+    fanartdata.slice(7, 10).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
-            <h1 class="image-description"> Designed by <a href={item.link} target="_blank">{item.name}</a> </h1>
+            <h1 class="image-description"> Credit @<a href={item.link} target="_blank">{item.name}</a> </h1>
         </div>
     ))
    }
 </div>
 <div class="column">
    {
-    fanartdata.slice(9,12).map(item =>(
+    fanartdata.slice(10,14).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
-            <h1 class="image-description"> Designed by <a href={item.link} target="_blank">{item.name}</a> </h1>
+            <h1 class="image-description"> Credit @<a href={item.link} target="_blank">{item.name}</a> </h1>
         </div>
     ))
    }

@@ -7,9 +7,11 @@ import mitchel from "../images/fanart/mitchell.jpg"
 import mitchel1 from "../images/fanart/mitchell1.jpg"
 import mitchel2 from "../images/fanart/mitchell2.jpg"
 import mitchel3 from "../images/fanart/mitchell3.jpg"
+import mitchel4 from "../images/fanart/mitchell4.jpg"
 import navaea from "../images/fanart/navaea.jpg"
 import teeworldist1 from "../images/fanart/teeworldist1.jpg"
 import teeworldist2 from "../images/fanart/teeworldist2.jpg"
+import Winter_Silverman from "../images/fanart/Winter Silverman.jpg"
 
 
 
@@ -72,6 +74,16 @@ export default[
     },
     {
         img: mitchel3,
+        name:"Mitchell  Gerken",
+        link:"https://www.facebook.com/mitchell.gerken.3"
+    },  
+    {
+        img: Winter_Silverman,
+        name:"Winter Silverman",
+        link:"https://www.facebook.com/rayanne.silverman"
+    },  
+    {
+        img: mitchel4,
         name:"Mitchell  Gerken",
         link:"https://www.facebook.com/mitchell.gerken.3"
     },  
