@@ -97,7 +97,11 @@ export default function Home(){
                 </div>
             </div>
 
+            <div class="header">
             <h1 className='character_header' id='character_header'>Characters</h1>
+            <p className="character_intro">Welcome to the Character Section! Explore the diverse cast of Avatar: The Last Airbender through our character carousel. Click on any portrait to uncover a brief summary of their story, traits, and journey. Get ready to immerse yourself in the world of Avatar's unforgettable characters!</p>
+</div>
+
             <div className='character_row' id="flavoursContainer" ref={flavoursContainerRef}>
             {
                 myList = characters_data.map(item => (
