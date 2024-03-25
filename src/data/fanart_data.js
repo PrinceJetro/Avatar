@@ -12,7 +12,8 @@ import navaea from "../images/fanart/navaea.jpg"
 import teeworldist1 from "../images/fanart/teeworldist1.jpg"
 import teeworldist2 from "../images/fanart/teeworldist2.jpg"
 import Winter_Silverman from "../images/fanart/Winter Silverman.jpg"
-
+import Serafina from "../images/fanart/serafina.jpg"
+import anonymous from "../images/fanart/anonymous.jpg"
 
 
 
@@ -48,14 +49,14 @@ export default[
         link:"https://www.facebook.com/mitchell.gerken.3"
     },
     {
-        img: ernesto1,
-        name:"Ernesto Designs",
-        link:"https://www.facebook.com/profile.php?id=100083047726618"
-    },
-    {
         img: mitchel2,
         name:"Mitchell  Gerken",
         link:"https://www.facebook.com/mitchell.gerken.3"
+    },
+    {
+        img: ernesto1,
+        name:"Ernesto Designs",
+        link:"https://www.facebook.com/profile.php?id=100083047726618"
     },
     {
         img: navaea,
@@ -78,6 +79,11 @@ export default[
         link:"https://www.facebook.com/mitchell.gerken.3"
     },  
     {
+        img: Serafina,
+        name:"Serafina Demaku",
+        link:"https://www.facebook.com/serafina.demaku"
+    },  
+    {
         img: Winter_Silverman,
         name:"Winter Silverman",
         link:"https://www.facebook.com/rayanne.silverman"
@@ -86,5 +92,10 @@ export default[
         img: mitchel4,
         name:"Mitchell  Gerken",
         link:"https://www.facebook.com/mitchell.gerken.3"
+    },  
+    {
+        img: anonymous,
+        name:"Anonymous",
+        link:""
     },  
 ]

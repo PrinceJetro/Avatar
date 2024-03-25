@@ -48,18 +48,6 @@ body{
   margin: 0px 75px 0px 75px;
 }
 
-/* Mobile */
-@media screen and (max-width: 480px) {
-  .character_div{
-      margin: 0 10px;
-  }
-  .quiz_intro{
-    height: 800px;
-  }
-  .character_show img{
-    width: 100%;
-  }
-}
 
 .character_row{
   overflow-x: scroll;
@@ -80,10 +68,29 @@ body{
   margin: 20px 5px;
 }
 
-.character_show .col-sm-6 img{
-  width: 100%;
-  height: 600px;
+/* pc */
+@media screen and (min-width: 480px){
+  .character_show .col-sm-6 img{
+    width: 100%;
+    height: 600px;
+  }
 }
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .character_div{
+      margin: 0 10px;
+  }
+  .quiz_intro{
+    height: 800px;
+  }
+  .character_show img{
+    width: 100%;
+  }
+}
+
+
 
 .quiz_intro{
   display: flex;

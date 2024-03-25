@@ -44,7 +44,7 @@ export default function FanArt() {
 </div>
 <div class="column">
    {
-    fanartdata.slice(4, 7).map(item =>(
+    fanartdata.slice(4, 8).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
             <h1 class="image-description"> Credit @<a href={item.link} target="_blank">{item.name}</a> </h1>
@@ -54,7 +54,7 @@ export default function FanArt() {
 </div>
 <div class="column">
    {
-    fanartdata.slice(7, 10).map(item =>(
+    fanartdata.slice(8, 12).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
             <h1 class="image-description"> Credit @<a href={item.link} target="_blank">{item.name}</a> </h1>
@@ -64,7 +64,7 @@ export default function FanArt() {
 </div>
 <div class="column">
    {
-    fanartdata.slice(10,14).map(item =>(
+    fanartdata.slice(12,16).map(item =>(
         <div class="image-container">
             <img src={item.img}  style={{ width: "100%"}}/>
             <h1 class="image-description"> Credit @<a href={item.link} target="_blank">{item.name}</a> </h1>

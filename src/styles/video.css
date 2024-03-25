@@ -7,7 +7,6 @@
 
 
 .video_items{
-    height:300px;
     width: 50%;
     display: inline-block;
     margin: 5px;
@@ -16,7 +15,7 @@
  /* Mobile */
  @media screen and (max-width: 480px) {
     .video_items{
-        height:350px;
+        height:250px;
         width: 95%;
     }
 

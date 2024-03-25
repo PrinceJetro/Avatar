@@ -118,7 +118,7 @@ export default function Home(){
 
             <div className='row character_show'>
               <div className='col-sm-6  mb-3'>
-                <img src={display_picture} className='img-fluid'/>
+                <img src={display_picture} className='character_big_image'/>
               </div>
               <div className='col-sm-6 p-5'>
                 <h1>{display_name}</h1>
