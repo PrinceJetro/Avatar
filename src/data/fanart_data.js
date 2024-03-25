@@ -40,7 +40,7 @@ export default[
     },
     {
         img: miguel,
-        name:"Miguek Maaba",
+        name:"Miguel Maaba",
         link:"https://www.facebook.com/profile.php?id=100093660856975"
     },
     {
