@@ -16,7 +16,7 @@ export default function Navbar(){
 
 
     return(
-      <nav className="navbar navbar-expand-lg navbar-dark sticky-top">
+      <nav className="navbar navbar-expand-lg navbar-dark">
   <a class="navbar-brand" href="#"><h1>Avatar</h1></a>
   <button className="navbar-toggler" type="button" onClick={() => setIsCollapsed(!isCollapsed)} aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
